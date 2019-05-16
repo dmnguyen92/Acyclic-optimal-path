@@ -82,9 +82,11 @@ class graph():
         sum_path_max = sum_path[start_node] + self.nodes[start_node]['weight']
         return sum_path_max
     
-    
-    # All the functions below is to deal with non-acyclic graph
+    ######################################################################
+    # This concludes the solution for acyclic graph
+    # The codes that follow deal with cyclic graph (with loop)
     # The codes are adapted from https://www.geeksforgeeks.org/strongly-connected-components/
+    ####################################################################
     
     def dfs_util(self, node, visited, node_circle):
         '''
