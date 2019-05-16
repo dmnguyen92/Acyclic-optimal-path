@@ -5,7 +5,7 @@ This code uses dynamic programming to find the maximum path on a weighted acycli
 ## How to run the code
 ```bash
 git clone https://github.com/dmnguyen92/Acyclic-optimal-path.git
-python find_max_path.py
+python demo.py
 ```
 
 ## What happens when the graph is no longer acyclic
